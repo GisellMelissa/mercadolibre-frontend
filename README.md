@@ -25,7 +25,7 @@ It's a template for React application with Typescript, Jest library and other st
 
 <a name="scripts" />
 
-### Available scripts
+### Comandos Disponibles
 
 `npm preview` - ejecuta la aplicación,
 
