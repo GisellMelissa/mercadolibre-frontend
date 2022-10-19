@@ -1,4 +1,4 @@
-# React | Typescript | Jest - application boilerplate
+# Prueba Técnica Mercadolibre
 
 It's a template for React application with Typescript, Jest library and other stuff that can be helpful for you - feel free to use it!
 
@@ -27,27 +27,19 @@ It's a template for React application with Typescript, Jest library and other st
 
 ### Available scripts
 
-`npm start` - run development server with hot reload mode,
+`npm preview` - ejecuta la aplicación,
 
 `npm build` - build distributon package,
 
-`npm run lint` - run lints,
-
-`npm run lint:code` - run lint for typescript / javascript files,
-
-`npm run lint:style` - run lint for style files,
-
 `npm test` - run tests,
-
-`npm run test:watch` - run tests with watch mode,
 
 `npm run test:coverage` - run tests and generate coverage report.
 
 <a name="technology" />
 
-### Technology stack
+### Stack de Tecnologías
 
-|   | Name | Version | Docs |
+|   | Nombre | Version | Docs |
 |-------|-----------------|-------------|------|
 | <img src="https://cdn.worldvectorlogo.com/logos/typescript-2.svg" width='30'> | Typescript | 4.6.3 | <https://www.typescriptlang.org/>
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width='30'> | React | 18.0.0 | <https://reactjs.org/>
