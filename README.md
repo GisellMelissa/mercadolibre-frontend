@@ -9,7 +9,7 @@ It's a template for React application with Typescript, Jest library and other st
 
 <a name="instalation" />
 
-### Instalation steps
+### Pasos de Instalación
 
 1. Clone this repository to destination folder.
 
