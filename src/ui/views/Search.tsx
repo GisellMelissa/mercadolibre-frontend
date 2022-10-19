@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
 import { useLocation, useNavigate} from 'react-router-dom'
-import { useGetSelectedProductMutation, useObtainSearchedProductsQuery } from '../api/meliApi'
+import { useGetSelectedProductMutation, useObtainSearchedProductsQuery } from '../../core/products/infrastructure/ProductsRepository'
 import { Spinner } from '../components/spinner/Spinner'
 import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks'
-import { setSearchProducts, setSelectedProducts } from '../slices/searchSlice'
+import { setSearchProducts } from '../../core/products/application/SearchProductsUseCase'
+import { setSelectedProducts } from '../../core/products/application/FindProductUseCase'
 
 export const Search = () => {
 	const dispatch = useAppDispatch()	

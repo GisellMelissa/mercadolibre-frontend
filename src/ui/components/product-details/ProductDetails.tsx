@@ -2,7 +2,7 @@ import { useAppSelector } from '../../hooks/reduxHooks'
 import ReactImageMagnify from 'react-image-magnify'
 
 export const ProductDetails = () => {
-	const { selectedProduct } = useAppSelector<any>(state => state.searchProducts)
+	const { selectedProduct } = useAppSelector<any>(state => state.findProduct)
 
 	// Obtiene la imágen con mayor resolución
 	const regex = /-V/i

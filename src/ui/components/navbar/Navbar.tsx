@@ -1,8 +1,8 @@
 import { IoSearchOutline } from 'react-icons/io5'
 import { FormEvent, useEffect, useState } from 'react'
 import { useAppDispatch } from '../../hooks/reduxHooks'
-import { setSearchProducts } from '../../slices/searchSlice'
-import { useSearchProductsMutation } from '../../api/meliApi'
+import { setSearchProducts } from '../../../core/products/application/SearchProductsUseCase'
+import { useSearchProductsMutation } from '../../../core/products/infrastructure/ProductsRepository'
 import { useNavigate } from 'react-router-dom'
 
 export const Navbar = () => {

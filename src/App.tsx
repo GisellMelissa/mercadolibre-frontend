@@ -1,9 +1,9 @@
 import './App.css'
-import { Navbar } from './components/navbar/Navbar'
-import { Home } from './views/Home'
+import { Navbar } from './ui/components/navbar/Navbar'
+import { Home } from './ui/views/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Search } from './views/Search'
-import { Product } from './views/Product'
+import { Search } from './ui/views/Search'
+import { Product } from './ui/views/Product'
 
 function App () {
 

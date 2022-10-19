@@ -1,12 +1,12 @@
 import { useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { useObtainSelectedProductsQuery } from '../api/meliApi'
+import { useObtainSelectedProductsQuery } from '../../core/products/infrastructure/ProductsRepository'
 import { ProductDetails } from '../components/product-details/ProductDetails'
 import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks'
-import { setSelectedProducts } from '../slices/searchSlice'
+import { setSelectedProducts } from '../../core/products/application/FindProductUseCase'
 
 export const Product = () => {
-	const { selectedProduct } = useAppSelector<any>(state => state.searchProducts)
+	const { selectedProduct } = useAppSelector<any>(state => state.findProduct)
 	const dispatch = useAppDispatch()
 
 	const product = useParams().id
